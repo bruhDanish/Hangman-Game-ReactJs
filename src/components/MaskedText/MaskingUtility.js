@@ -16,5 +16,5 @@ export function getMaskedString(originalWord, guessedLetters){
         }
     })
 
-    return result.join('');
+    return result;
 }
